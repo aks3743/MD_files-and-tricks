@@ -1,9 +1,11 @@
+# how to use guide for markdown files
+
 
 <ol>
     
 <li> 
 
-# Headings
+## Headings
 
 # Heading 1
 
@@ -14,7 +16,7 @@
 
 <li> 
 
-# text styling
+## text styling
 
 **Bold Text**
 
@@ -27,7 +29,7 @@
 
 <li> 
 
-# lists
+## lists
 
 - Unordered Item 1
 - Unordered Item 2
@@ -39,27 +41,27 @@
 
 <li>
 
-# links
+## links
 [Abhijith K S](https://www.linkedin.com/in/abhijith-k-s-aks3743/)
 
 
 <li>
 
-# images
+## images
 
 ![Look in the mirror. Thats your competition](https://www.invajy.com/wp-content/uploads/2020/06/Motivational-picture-quote-300x300.jpg)
 
 
 <li>
 
-# block quotes
+## block quotes
 
 > This is a blockquote.
 
 
 <li>
 
-# code blocks
+## code blocks
 
 ```python
 def hello_world():
@@ -68,7 +70,7 @@ def hello_world():
 
 <li>
 
-# tables
+## tables
 
 | Header 1 | Header 2 |
 |----------|----------|
@@ -77,13 +79,13 @@ def hello_world():
 
 <li>
 
-# horizontal rule
+## horizontal rule
 
 ---
 
 <li>
 
-# task lists
+## task lists
 
 - [x] Task 1
 - [ ] Task 2
@@ -92,30 +94,35 @@ def hello_world():
 
 <li>
 
-# task with details
+## task with details
 
 - [x] Task 1
   - Details about Task 1
 - [ ] Task 2
   - Details about Task 2
 
+- [x] @mentions, #refs, [links] are allowed.
+- [ ] this is an incomplete task.
+- [x] This task is complete.
+
 
 <li>
 
-# footnotes
+## footnotes
 
 Some text.[^1]
 
 [^1]: Footnote content.
 
+
 some other text.[^2]
 
-[^2] : footnote 2
+[^2]: footnote 2
 
 
 <li>
 
-# defenition lists
+## defenition lists
 
 Term 1
 : Definition 1
@@ -126,7 +133,7 @@ Term 2
 
 <li>
 
-# abbreviations
+## abbreviations
 
 This is an abbreviation: HTML stands for HyperText Markup Language.
 
@@ -136,7 +143,7 @@ This is an abbreviation: HTML stands for HyperText Markup Language.
 
 <li>
 
-# inline HTMl content
+## inline HTMl content
 
 <div style="background-color: #f1f1f1;">This is a div element.</div>
 
@@ -144,12 +151,41 @@ This is an abbreviation: HTML stands for HyperText Markup Language.
 
 <li>
 
-# emojis
+## emojis
 
 :smile: :rocket:
 
 
 
+<li>
+
+## superscipt and subscript
+
+H<sub>2</sub>O is water. X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup>
+
+
+<li>
+
+## adding IDs for Headings (useful for linking within the document):
+
+### My Heading {#custom-id}
+[Link to Heading](#custom-id)
+
+
+<li>
+
+## quote attribution
+
+> To be or not to be...
+> - William Shakespeare
+
+<li>
+
+## math equations
+
+$$
+f(x) = x^2
+$$
 
 
 
