@@ -148,7 +148,7 @@ This is an abbreviation: HTML stands for HyperText Markup Language.
 
 <li>
 
-## inline HTMl content
+## inline HTML content
 
 <div style="background-color: #f1f1f1;">This is a div element.</div>
 
@@ -225,11 +225,18 @@ $$
 ```mermaid
 
 graph TD;
-    A-->B;
+    A-->B-->D;
     A-->C;
-    B-->D;
     C-->D;
+    D-->Z;
+    Z-->dy(z)-->A
 
+```
+
+
+```mermaid
+graph LR
+    fa:fa-check-->fa:fa-coffee
 ```
 
 
