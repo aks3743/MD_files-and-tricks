@@ -77,6 +77,11 @@ def hello_world():
 | Cell 1   | Cell 2   |
 
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| Content      |    Content     |       Content |
+
+
 <li>
 
 ## horizontal rule
@@ -168,7 +173,9 @@ H<sub>2</sub>O is water. X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup>
 
 ## adding IDs for Headings (useful for linking within the document):
 
+
 ### My Heading {#custom-id}
+
 [Link to Heading](#custom-id)
 
 
@@ -186,6 +193,90 @@ H<sub>2</sub>O is water. X<sup>2</sup> + Y<sup>2</sup> = Z<sup>2</sup>
 $$
 f(x) = x^2
 $$
+
+
+<li>
+
+
+## table of contents
+
+- [Section 1](#section-1)
+- [Section 2](#section-2)
+
+
+<li>
+
+## automatic table of contents
+
+[TOC]
+
+<li>
+
+## admonitions (callout boxes)
+
+!!! warning "Warning"
+    This is a warning.
+
+
+<li>
+
+## mermaid diagrams
+
+```mermaid
+
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+
+```
+
+
+<li>
+
+## PlantUML diagrams
+
+```plantuml
+@startuml
+Bob -> Alice : hello
+@enduml
+
+```
+
+
+<li>
+
+## admonition icons
+
+
+:::info
+This is an information message.
+:::
+
+
+<li>
+
+## presentation slides
+
+--- slide
+## Slide Title
+
+Slide content here.
+--- slide
+## Another Slide
+
+More content.
+---
+
+
+<li>
+
+## embedding youtube vidios
+
+<iframe width="560" height="315" src="https://youtu.be/URc_PwZpYIc" frameborder="0" allowfullscreen></iframe>
+
+
 
 
 
